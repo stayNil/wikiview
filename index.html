@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WikiView</title>
+  <meta name="description" content="A Wikipedia viewer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <input type="text" class="search inputField" id="search-input" placeholder="Search Wikipedia..." maxlength="25">
+
+    <div class="icons"><img class="magnifyingGlass" id="magnify" src="assets/icon/magnifying-glass.png" alt="Magnifying Glass">
+
+      <a target="blank" href="https://en.wikipedia.org/wiki/Special:Random"><img class="dice" src="assets/icon/dice.png" alt="Random Wikipedia Search"></a>
+    </div>
+
+  </div>
+  <div class="viewer" id="wikiview"></div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
